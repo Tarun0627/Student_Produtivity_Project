@@ -1,0 +1,12 @@
+{
+    "app":[{
+        "name":"codeimprove",
+        "script":"./index.js",
+        "watch" : false,
+        "ignore_watch" :["node_modules"],
+        "instances":1,
+        "excu_mode":"cluster",
+        "env" :{ "DB_NAME":"DB_CONNECTIONS"}
+    }
+    ]
+}
